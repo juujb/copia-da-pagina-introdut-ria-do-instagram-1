@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body { 
+      width: 100%;
+      min-height: 100vh ;
+      background-color: rgb(243, 243, 243);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50% ;
+}
+
+.instagram-phone img {
+    height: 40rem;
+    
+}
+
+.instagram-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.caract {
+    padding: 8px;
+    border: 1px solid lightgray;
+    width: 80%;
+
+
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group img{
+    height: 3rem;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-entrar {
+    background-color: #0095f6 ;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    
+}
+
+.instagram-fb {
+    color: #3b5998;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.not-account {
+    color: rgb(160,160,160)
+}
+
+.link-blue {
+    color:#0095f6
+}
+
+.ou {
+    padding-top: 1rem;
+    font-size: small; 
+     
+}
+.get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./images/appstore.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./images/playstore.png');
+}
